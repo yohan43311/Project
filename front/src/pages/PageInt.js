@@ -1,19 +1,27 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
+import Sidebar from '../pages/Sidebar';
+
+
 
 function PageInt() {
+
+  const cardStyle = {
+    textDecoration: 'none',
+    color: '#263238'
+
+  }
+
   return (
     <div className='container'>
-      <div class="card mb-3" >
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://blog.kakaocdn.net/dn/kwLY3/btqFvgi9JrQ/jt9iaxipjbtz0qTPQ2GK91/img.png" class="img-fluid rounded-start" alt="..."/>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
+      <div className='row'>
+
+        <Sidebar />
+        <div class="col">
+          <div className='page_1'>
+            <h1>TWINNY</h1>
+            <p className='page_2'>자율주행로봇 전문기업 TWINNY Intro</p>
           </div>
         </div>
       </div>

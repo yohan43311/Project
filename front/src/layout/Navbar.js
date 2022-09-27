@@ -7,13 +7,13 @@ export default function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/main">
                         팀 이름은 미정
                     </Link>
                     
                     <ul className="navbar-nav">
                         <li className="nav-item dropdown mx-3">
-                            <a className="nav-link dropdown-toggle"  href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 소개
                             </a>
                             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">

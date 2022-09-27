@@ -15,6 +15,7 @@ import Plet from './pages/Plet';
 import UserEd from './pages/UserEd'
 import UserMu from './pages/UserMu'
 
+
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,8 @@ function App() {
           <Route exact path="/plet" element={<Plet/>}/>
           <Route exact path="/usered" element={<UserEd/>}/>
           <Route exact path="/usermu" element={<UserMu/>}/>
+
+
 
 
 
