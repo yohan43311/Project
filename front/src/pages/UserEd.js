@@ -1,9 +1,19 @@
 import React from 'react'
+import Sidebar from './Sidebar'
 
 export default function UserEd() {
   return (
-    <div>
-      회원 안에 있는 수정과 는 마싯어~
+    <div className='container'>
+      <div className='row'>
+        <Sidebar />
+        <div class="col">
+
+          <div class>
+            <h1>TANG TANG</h1>
+            <p class>자율주행로봇 전문기업 TANG TANG Edit</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

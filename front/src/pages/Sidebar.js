@@ -14,10 +14,10 @@ function Sidebar() {
 
   return (
     
-      <div class="flex-shrink-0 p-3 bg-white" style={{ width: '100px' }}>
+      <div className="flex-shrink-0 p-3 bg-white" style={{ width: '100px', height:'100' }}>
         <a class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
           <svg class="bi me-2" width="30" height="24"></svg>
-          <span class="fs-5 fw-semibold">TWINNY</span>
+          <span class="fs-5 fw-semibold">TANG</span>
         </a>
         <ul class="list-unstyled ps-0">
           <li class="mb-1">

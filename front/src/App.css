@@ -38,7 +38,7 @@
   }
 }
 
-.pageint_text{
+/* .pageint_text{
   text-align:left;
 }
 
@@ -46,7 +46,7 @@
   border: 0;
   width: 70%;
   height: 10px;
-}
+} */
 /* width: 수평선의 크기(가로 길이)
 비율(%) | 숫자값(px)
 height : 수평선의 굵기
@@ -55,8 +55,47 @@ left | center | right
 (default: center)
 background-color 또는 background: 수평선의 색깔 */
 
-.video{
+.video_3{
   
     border-radius: 20px;
   
-} /* 동영상 테두리 */
+} 
+/* 동영상 테두리 (PageInt) */
+
+.pageint_lee,.txt_name_2,.pageint_nuam{
+  text-align: left;
+} 
+/* 페이지 소개 text (PageInt) */
+/* 페이지 소개 작은 글  (PageInt) */
+
+.txt_name{
+  color: orange;
+}
+ /* 페이지 소개 글 색상  (PageInt) */
+
+.pageint_vidio
+{
+  float:left
+}
+ 
+.video_1
+{
+  border-radius: 10;
+}
+
+.Timage{
+  width: 100px;
+   height: 100px;
+   object-fit: cover;
+}
+
+
+
+
+.pageint_container_1,.pageint_container_2,.pageint_vidio,.Sidebar_1,.pageint_video_1{
+  border: 1px solid red;
+}
+.row{
+  border: 3px solid blue;
+}
+
