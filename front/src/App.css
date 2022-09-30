@@ -62,13 +62,13 @@ background-color 또는 background: 수평선의 색깔 */
 } 
 /* 동영상 테두리 (PageInt) */
 
-.pageint_lee,.txt_name_2,.pageint_nuam{
+.pageint_lee,.txt_name_2,.pageint_nuam,.yeanhyeok_1{
   text-align: left;
 } 
 /* 페이지 소개 text (PageInt) */
 /* 페이지 소개 작은 글  (PageInt) */
 
-.txt_name{
+.txt_name,.leenum,.yeanhyeok{
   color: orange;
 }
  /* 페이지 소개 글 색상  (PageInt) */
@@ -91,11 +91,11 @@ background-color 또는 background: 수평선의 색깔 */
 
 
 
-
-.pageint_container_1,.pageint_container_2,.pageint_vidio,.Sidebar_1,.pageint_video_1{
+.pageint_container_1,.pageint_container_2,.pageint_vidio,.Sidebar_1
+,.pageint_video_1,.yeanhyeok_1,.pageint_nuam{
   border: 1px solid red;
 }
-.row{
+/* .row{
   border: 3px solid blue;
-}
+} */
 

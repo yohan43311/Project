@@ -5,7 +5,11 @@ import Vivi_3 from "../Video/0927_2.mp4";
 import Vivi_4 from "../Video/0927_3.mp4";
 import Vivi_5 from "../Video/0927_4.mp4";
 import Sidebar from '../pages/Sidebar';
-import Timage from '../pages/tust.png'
+import Timage from '../pages/tust.png';
+import Timage_1 from '../pages/yun.png';
+import Timage_2 from '../pages/bo.png';
+import Swiper from 'swiper';
+
 
 
 
@@ -58,6 +62,7 @@ function PageInt() {
             자율주행로봇과 플랫폼 서비스를 통해 모든 이들이 자율주행로봇 서비스를 경험할 수 있도록,
             <br />
             누구보다 빠르게 앞장서고 있습니다.
+
           </p>
         </div>
         {/* 페이지 소개 전 제품 소개 */}
@@ -88,49 +93,67 @@ function PageInt() {
               <br />
               경영이념
             </h1>
+            <br />
             <div className="row text-center">
               <div class='col-md-4 col-sm-4 col-xs-12'>
                 <h3 class='sub-stit bottom-pad-30'>
                   신뢰
-                  <span>Trust</span>
+                  <span className='leenum'>Trust</span>
                 </h3>
-                <p class="dist-img">
-                  <img src={Timage} />
+                <p className="dist-img_1">
+                  <img src={Timage} alt="/" width="auto" height="300" />
                 </p>
                 <p class='dist-tit'>
                   직원과 고객과의 신뢰를
-                  <br/>
+                  <br />
                   최선으로 생각합니다.
                 </p>
               </div>
 
               <div class='col-md-4 col-sm-4 col-xs-12'>
                 <h3 class='sub-stit bottom-pad-30'>
-                  신뢰
-                  <span>Trust</span>
+                  윤리
+                  <span className='leenum'>Ethics</span>
                 </h3>
                 <p class="dist-img">
-                  <img src={Timage} />
+                  <img src={Timage_1} alt="/" width="auto" height="300" />
                 </p>
                 <p class='dist-tit'>
-                  직원과 고객과의 신뢰를
+                  기엽윤리를 준수하여
+                  <br />
+                  공존공영합니다.
                 </p>
               </div>
 
               <div class='col-md-4 col-sm-4 col-xs-12'>
                 <h3 class='sub-stit bottom-pad-30'>
-                  신뢰
-                  <span>Trust</span>
+                  품질
+                  <span className='leenum'>Quality</span>
                 </h3>
                 <p className="pageint_img">
-                  <img src={Timage} />
+                  <img src={Timage_2} alt="/" width="auto" height="300" />
                 </p>
                 <p class='dist-tit'>
-                  직원과 고객과의 신뢰를
+                  품질을 보증하여 고객에게
+                  <br />
+                  감동을 선사합니다.
                 </p>
               </div>
             </div>
           </div>
+        </article>
+        <article className='yeanhyeok_1'>
+          <br />
+          <h1>연혁</h1>
+          <br />
+          <h1>자율주행로봇이 곧
+            <span className='yeanhyeok'> 탕탕</span>
+            이 되는
+            <br />
+            그 날까지
+          </h1>
+
+        
         </article>
       </div>
 
