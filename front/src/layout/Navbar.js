@@ -33,15 +33,6 @@ export default function Navbar() {
 
                         <li className="nav-item dropdown mx-3">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                플랫폼
-                            </a>
-                            <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><Link className="dropdown-item"  to="/plet" href="#">보드</Link></li>
-                            </ul>
-                        </li>
-
-                        <li className="nav-item dropdown mx-3">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 회원
                             </a>
                             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">

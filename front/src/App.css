@@ -88,14 +88,42 @@ background-color 또는 background: 수평선의 색깔 */
    height: 100px;
    object-fit: cover;
 }
+/* 비디오 이미지 사이즈 조절 */
+
+.container_pagesite_1{
+  position: absolute;
+  top: 50%;
+  left: 36%;
+} 
+/* pagesite 중앙 정렬 (고정) */
+
+.pagesite_dot{
+  list-style: none;
+  padding-left:0px;
+}
+/* li 밑줄 / 점 없애기 */
+
+.pagesite_int_1,.pagesite_int_2,.pagesite_int_3{
+  text-align: left;
+}
+/* pagesite 왼쪽 정렬 */
+
+
+
+
+
 
 
 
 .pageint_container_1,.pageint_container_2,.pageint_vidio,.Sidebar_1
-,.pageint_video_1,.yeanhyeok_1,.pageint_nuam{
+,.pageint_video_1,.yeanhyeok_1,.pageint_nuam,.pagesite_1,.pagesite_2
+,.container_pagesite_1{
   border: 1px solid red;
 }
 /* .row{
   border: 3px solid blue;
 } */
+
+
+
 

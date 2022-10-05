@@ -14,7 +14,7 @@ import PageSite from './pages/PageSite';
 import Plet from './pages/Plet';
 import UserEd from './pages/UserEd'
 import UserMu from './pages/UserMu'
-
+import Main from './pages/Main'
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
         <Navbar/>
         <Routes>
           <Route exact path="/" element={<UserList/>}/>
+          <Route exact path="/main" element={<Main/>}/>
           <Route exact path="/adduser" element={<AddUser/>}/>
           <Route exact path="/edituser/:id" element={<EditUser/>}/>
           <Route exact path="/viewuser/:id" element={<ViewUser/>}/>

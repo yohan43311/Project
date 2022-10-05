@@ -8,7 +8,7 @@ import Sidebar from '../pages/Sidebar';
 import Timage from '../pages/tust.png';
 import Timage_1 from '../pages/yun.png';
 import Timage_2 from '../pages/bo.png';
-import Swiper from 'swiper';
+
 
 
 
@@ -27,7 +27,7 @@ function PageInt() {
             <br />
             <br />
             <h1>TANG TANG</h1>
-            <p className='page_2'>자율주행로봇 전문기업 TANG TANG Intro</p>
+            <p className='page_2'>쓰레기로봇 전문기업 TANG TANG Intro</p>
 
             <video className='video_3' controls width="700">
               <source src={Vivi_3}></source>
@@ -48,7 +48,7 @@ function PageInt() {
             <br />
             더 많은 이들이,
             <br />
-            자율주행의 편리함을 경험할 수 있도록
+            쓰레기의 편리함을 경험할 수 있도록
             <br />
             <span class="txt_name">TANG TANG</span>
             <br />
@@ -57,9 +57,9 @@ function PageInt() {
 
           <p className='txt_name_2'>
             <br />
-            탕탕은 자율주행 기술을 기반으로 일상을 더욱 편리하게 만드는 기업으로서,
+            탕탕의 기술을 기반으로 일상을 더욱 편리하게 만드는 기업으로서,
             <br />
-            자율주행로봇과 플랫폼 서비스를 통해 모든 이들이 자율주행로봇 서비스를 경험할 수 있도록,
+            쓰레기로봇과 플랫폼 서비스를 통해 모든 이들이 쓰레기로봇 서비스를 경험할 수 있도록,
             <br />
             누구보다 빠르게 앞장서고 있습니다.
 
@@ -119,7 +119,7 @@ function PageInt() {
                   <img src={Timage_1} alt="/" width="auto" height="300" />
                 </p>
                 <p class='dist-tit'>
-                  기엽윤리를 준수하여
+                  기업윤리를 준수하여
                   <br />
                   공존공영합니다.
                 </p>
@@ -146,14 +146,13 @@ function PageInt() {
           <br />
           <h1>연혁</h1>
           <br />
-          <h1>자율주행로봇이 곧
+          <h1>개 쑤레기로봇이 곧
             <span className='yeanhyeok'> 탕탕</span>
             이 되는
             <br />
-            그 날까지
+            그 날까지 -
           </h1>
 
-        
         </article>
       </div>
 
