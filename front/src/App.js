@@ -11,7 +11,6 @@ import ViewUser from './users/ViewUser';
 import PageInt from './pages/PageInt';
 import Product from './pages/Product';
 import PageSite from './pages/PageSite';
-import Plet from './pages/Plet';
 import UserEd from './pages/UserEd'
 import UserMu from './pages/UserMu'
 import Main from './pages/Main'
@@ -31,7 +30,6 @@ function App() {
           <Route exact path="/pageint" element={<PageInt/>}/>
           <Route exact path="/product" element={<Product/>}/>
           <Route exact path="/pagesite" element={<PageSite/>}/>
-          <Route exact path="/plet" element={<Plet/>}/>
           <Route exact path="/usered" element={<UserEd/>}/>
           <Route exact path="/usermu" element={<UserMu/>}/>
 
