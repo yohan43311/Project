@@ -20,7 +20,7 @@ function PageInt() {
       <div className='row'>
 
         <Sidebar />
-        <div class="col-10">
+        <div class="col-10 mx-3">
           <div className='pageint_video_1'>
             <br />
             <br />
@@ -146,7 +146,7 @@ function PageInt() {
           <br />
           <h1>연혁</h1>
           <br />
-          <h1>개 쑤레기로봇이 곧
+          <h1>쑤레기로봇이 곧
             <span className='yeanhyeok'> 탕탕</span>
             이 되는
             <br />

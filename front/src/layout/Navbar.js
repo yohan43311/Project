@@ -1,19 +1,29 @@
+import { Container } from "@mui/system";
 import React from "react";
 import { Link } from "react-router-dom";
+import "../Css/AllCss.css"
 
 
 export default function Navbar() {
+
+    const cardStyle={
+        paddingLeft: 1, 
+        textDecoration: 'none',
+        color: '#E0E0E0'
+    }
+
+
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container">
-                    <Link className="navbar-brand" to="/main">
+            <nav className="navbar navbar-expand navbar-dark bg-dark mx-5">
+                
+                    <Link className="navbar-brand nvBar" to="/main">
                         팀 이름은 미정
                     </Link>
                     
-                    <ul className="navbar-nav">
-                        <li className="nav-item dropdown mx-3">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <ul className="navbar-nav mx-5">
+                        <li className="nav-item dropdown mx-5">
+                            <a className="nav-link dropdown-toggle mx-3" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 소개
                             </a>
                             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -22,7 +32,7 @@ export default function Navbar() {
                             </ul>
                         </li>
 
-                        <li className="nav-item dropdown mx-3">
+                        <li className="nav-item dropdown mx-5">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 제품
                             </a>
@@ -31,7 +41,7 @@ export default function Navbar() {
                             </ul>
                         </li>
 
-                        <li className="nav-item dropdown mx-3">
+                        <li className="nav-item dropdown mx-5">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 회원
                             </a>
@@ -41,14 +51,17 @@ export default function Navbar() {
                             </ul>
                         </li>
                     </ul>
-
+                
                     
-
-
-                        <Link className="btn btn-outline-light" to="/adduser">
-                            로그인
+                    <div className="login_right">
+                        <Link to={"/login"} className="card-link mx-3"  style={cardStyle}>
+                                로그인
                         </Link>
-                </div>
+
+                        <Link to={"/adduser"} className="card-link mx-3"  style={cardStyle}>
+                                회원가입
+                        </Link>
+                    </div>
             </nav>
         </div>
     );

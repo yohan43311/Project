@@ -14,6 +14,8 @@ import PageSite from './pages/PageSite';
 import UserEd from './pages/UserEd'
 import UserMu from './pages/UserMu'
 import Main from './pages/Main'
+import Login from './users/Login';
+import Join from './users/Join';
 
 function App() {
   return (
@@ -32,11 +34,9 @@ function App() {
           <Route exact path="/pagesite" element={<PageSite/>}/>
           <Route exact path="/usered" element={<UserEd/>}/>
           <Route exact path="/usermu" element={<UserMu/>}/>
+          <Route exact path="/login" element={<Login/>}/>
 
-
-
-
-
+          <Route exact path="/join" element={<Join/>}/>
 
 
 
