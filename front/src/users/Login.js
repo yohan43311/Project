@@ -49,7 +49,7 @@ export default function Login() {
                         비밀번호
                     </label>
                     <input
-                        type={"text"}
+                        type={"password"}
                         className="form-control"
                         placeholder="비밀번호를 입력해주세요"
                         name="name"
@@ -65,14 +65,13 @@ export default function Login() {
 
                     <Link className='btn btn-outline-danger mx-2' to='/'>
                         취소</Link>
-                        <div className='login_1'>
-                        <Link className='login_1' to='/adduser'>
+                    <div className='login_1'>
+                        <Link className='login_1' to='/join'>
                             회원가입</Link>
-                            <br/>
-                            <Link className='login_1' to='/join'>
-                                조인</Link>
+                        <br />
+
                     </div>
-                    
+
 
                 </div>
             </form>

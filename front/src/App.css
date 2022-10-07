@@ -111,12 +111,10 @@ background-color 또는 background: 수평선의 색깔 */
 .adduser_1{
   float: right;
 }
-.login_1{
+.login_1,.join_1{
   text-align: right;
   vertical-align: bottom;
 }
-
-
 
 
 

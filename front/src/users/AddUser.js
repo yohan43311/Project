@@ -109,11 +109,11 @@ export default function AddUser() {
 
                     <Link className='btn btn-outline-danger mx-2' to='/'>
                         취소</Link>
-                        <div className='login_1'>
+                    <div className='login_1'>
                         <Link className='login_1' to='/login'>
-                        로그인</Link>
-                        </div>
-                         
+                            로그인</Link>
+                    </div>
+
                 </div>
             </form>
 

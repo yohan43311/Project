@@ -20,17 +20,21 @@ function Sidebar() {
           <span class="fs-5 fw-semibold">TANG</span>
         </a>
         <ul class="list-unstyled ps-0">
+          
+          
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
               소개
             </button>
-            <div className="collapse show" id="home-collapse">
+            <div className="collapse" id="home-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <Link to={"/pageint"} style={cardStyle}>페이지 소개</Link>
               <Link to={"/pagesite"} style={cardStyle}>사이트 맵</Link>
               </ul>
             </div>
           </li>
+
+          <li class="border-top my-3"></li>
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
               제품
@@ -42,6 +46,7 @@ function Sidebar() {
             </div>
           </li>
          
+
           <li class="border-top my-3"></li>
           <li class="mb-1">
             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
@@ -54,6 +59,8 @@ function Sidebar() {
               </ul>
             </div>
           </li>
+
+
         </ul>
       </div>
   )

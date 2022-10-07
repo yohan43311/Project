@@ -52,67 +52,73 @@ function Join() {
     };
 
     const validation = () => {
-        if(!userId) setUserIdError(true);
-        if(!password) setPasswordError(true);
-        if(!confirmPassword) setConfirmPasswordError(true);
-        if(!userName) setUserNameError(true);
-        if(!email) setEmailError(true);
+        if (!userId) setUserIdError(true);
+        if (!password) setPasswordError(true);
+        if (!confirmPassword) setConfirmPasswordError(true);
+        if (!userName) setUserNameError(true);
+        if (!email) setEmailError(true);
 
-        if(userId && password && confirmPassword && userName && email) return true;
+        if (userId && password && confirmPassword && userName && email) return true;
         else return false;
     }
 
     const onSubmit = (e) => {
-        if(validation()) return;
-        
+        if (validation()) return;
+
         // API Call
-        
+
 
     }
 
     return (
         <div>
-            <Container className="panel">
+            <Container className="panel size_mian">
+                <h2 className="text-center m-4">회원가입</h2>
                 <Form>
                     <Form.Group as={Row} className="mb-3">
                         <Col sm>
-                            <Form.Control maxLength={20} placeholder="UserID" value={userId} onChange={onChangeUserId} />
+                            <Form.Control maxLength={20} placeholder="아이디" value={userId} onChange={onChangeUserId} />
                             {userIdError && <div class="invalid-input">( 사용자 ID는 최소 5글자 / 문자나 숫자를 포함 )</div>}
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3">
                         <Col sm>
-                            <Form.Control maxLength={20} type="password" placeholder="Password" value={password} onChange={onChangePassword} />
+                            <Form.Control maxLength={20} type="password" placeholder="비밀번호" value={password} onChange={onChangePassword} />
                             {passwordError && <div class="invalid-input">( 비밀번호는 8자 이상 / 적어도 하나의 숫자 포함 ) </div>}
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3">
                         <Col sm>
-                            <Form.Control maxLength={20} type="password" placeholder="Confirm Password" value={confirmPassword} onChange={onChangeConfirmPassword} />
+                            <Form.Control maxLength={20} type="password" placeholder="비밀번호 재입력" value={confirmPassword} onChange={onChangeConfirmPassword} />
                             {confirmPasswordError && <div class="invalid-input">일치하지 않습니다.</div>}
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3">
                         <Col sm>
-                            <Form.Control maxLength={20} placeholder="Username" value={userName} onChange={onChangeUserName} />
-                            {userNameError && <div class="invalid-input">Required.</div>}
+                            <Form.Control maxLength={20} placeholder="이름" value={userName} onChange={onChangeUserName} />
+                            {userNameError && <div class="invalid-input">기재해주세요.</div>}
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3">
                         <Col sm>
-                            <Form.Control maxLength={50} type="input" placeholder="Email Address" value={email} onChange={onChangeEmail} />
+                            <Form.Control maxLength={50} type="input" placeholder="이메일" value={email} onChange={onChangeEmail} />
                             {emailError && <div class="invalid-input">이메일 형식에 맞춰주세요.</div>}
                         </Col>
                     </Form.Group>
                     <br />
                     <div className="d-grid gap-1">
                         <Button variant="secondary" onClick={onSubmit}>
-                            Sign Up
+                            등록하기
                         </Button>
+                        
                     </div>
                 </Form>
                 <br />
-                <span className="text">Have an account? <Link to="/login" className="link">Sign In</Link></span>
+                <span className="text">계정이 있으신가요?
+                <div className='join_1'>
+                <Link to="/login" className="link">로그인</Link>
+                </div>
+                </span>
             </Container>
         </div>
     );

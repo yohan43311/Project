@@ -37,7 +37,7 @@ export default function Navbar() {
                                 제품
                             </a>
                             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><Link className="dropdown-item"  to="/product" href="#">제품 소개 및 판매</Link></li>
+                                <li><Link className="dropdown-item"  to="/pro" href="#">제품 소개 및 판매</Link></li>
                             </ul>
                         </li>
 
@@ -58,7 +58,7 @@ export default function Navbar() {
                                 로그인
                         </Link>
 
-                        <Link to={"/adduser"} className="card-link mx-3"  style={cardStyle}>
+                        <Link to={"/join"} className="card-link mx-3"  style={cardStyle}>
                                 회원가입
                         </Link>
                     </div>

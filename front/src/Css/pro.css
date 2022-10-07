@@ -1,0 +1,408 @@
+/* ********제품관련********* */
+.area2_title {
+    left: 30px;
+     width: 500px;
+     height: 160px;
+     position: relative;
+   }
+   
+   .R1_img {
+   
+     position: relative;
+   
+   
+   }
+   
+   .img2 {
+     position: relative;
+     width: 110%;
+     top: 60px;
+     right: 20px;
+   
+   
+   }
+   
+   .title {
+     text-align: right;
+     font-weight: 1000;
+     font-size: 20px;
+     color: rgb(10, 10, 10);
+     position: absolute;
+     bottom: 1px;
+     left: 40px;
+   }
+   
+   
+   .area2 {
+     width: 550px;
+     height: 700px;
+     float: left;
+     margin-right: 100px;
+     display: block;
+     text-align: center;
+     position: relative;
+     top: 100px;
+   }
+   
+   .area3 {
+     width: 298px;
+     height: 700px;
+     border: 1px solid black;
+     float: left;
+     position: relative;
+     top: 150px;
+     text-align: center;
+     
+   }
+   
+   .area4 {
+   
+     width: 1072px;
+     height: 4000px;
+     border: 1px solid rgb(0, 0, 0);
+     clear: left;
+     position: relative;
+     bottom: 4000px;
+     left: 200px;
+     text-align: center;
+   }
+   
+   .textR1_1 {
+     text-align: left;
+     font-weight: 700;
+     font-size: 25px;
+   
+     color: rgb(10, 10, 10);
+   
+   }
+   
+   .textR1 {
+   
+     position: absolute;
+     top: 80px;
+     right: 35px;
+     width: 250px;
+     height: 150px;
+   }
+   
+   .textR2 {
+   
+     position: absolute;
+     top: 210px;
+     right: 35px;
+     width: 250px;
+     height: 150px;
+   }
+   
+   .textR3 {
+   
+     position: absolute;
+     top: 380px;
+     right: 35px;
+     width: 250px;
+     height: 150px;
+   }
+   
+   .b1 {
+     position: absolute;
+     top: 550px;
+     right: 35px;
+     width: 250px;
+     height: 250px;
+   }
+   
+   .buttonbb {
+     position: absolute;
+     left: 15px;
+     width: 230px;
+     height: 50px;
+     background-color: black;
+     color: white;
+     font-weight: 5000;
+     font-size: 22px;
+   
+   }
+   
+   .t1 {
+     position: absolute;
+     top: 100px;
+     width: 950px;
+     height: 50px;
+     right: 60px;
+   
+   }
+   
+   
+   .pre_text1 {
+   
+     font-weight: 1000;
+     font-size: 40px;
+   
+   }
+   
+   .v1 {
+   
+     position: absolute;
+   
+     height: 400px;
+     top: 3400px;
+     right:180px;
+   
+   
+   }
+   
+   .pre_img1 {
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 500px;
+     right: 150px;
+     margin: 30px;
+   }
+   
+   .pre_img2 {
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 1200px;
+     right: 150px;
+     margin: 30px;
+   }
+   
+   .pre_img3 {
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 1900px;
+     right: 150px;
+     margin: 30px;
+   }
+   
+   .pre_img4 {
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 2600px;
+     right: 150px;
+     margin: 30px;
+   }
+   
+   .textbox1{
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 1000px;
+     right: 150px;
+     margin: 30px;
+   
+   }
+   .textbox2{
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 1700px;
+     right: 150px;
+     margin: 30px;
+   
+   }
+   .textbox3{
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 2400px;
+     right: 150px;
+     margin: 30px;
+   
+   }
+   .textbox4{
+   
+     position: absolute;
+     width: 700px;
+     height: 400px;
+     top: 3100px;
+     right: 150px;
+     margin: 30px;
+   
+   }
+   
+
+/* ************************** sidebar */
+
+   .area1{
+    width:200px;
+    height:5000px; 
+   
+     float:left; 
+     margin-right:122px;
+   
+   
+   }
+   
+   .side{
+   
+     position: sticky;
+     top :100px;
+   }
+
+/*  *************제품***************  */
+
+
+.text1 {
+    font-weight: 1000;
+    font-size: 30px;
+
+    color: rgb(11, 11, 11);
+    position: absolute;
+    bottom: 380px;
+    left: 550px;
+    color: orange;
+
+}
+
+.text2 {
+    font-weight: 1000;
+    font-size: 25px;
+
+    color: rgb(10, 10, 10);
+    position: absolute;
+    bottom: 300px;
+    left: 550px;
+}
+
+.line {
+
+
+
+    position: absolute;
+    bottom: 360px;
+    left: 550px;
+
+    border: 2;
+    height: 4px;
+    width: 35%;
+
+
+    background-color: rgb(1, 1, 1);
+
+
+}
+
+
+.button1 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: border-color 0.2s ease;
+    -webkit-transition: border-color 0.2s ease;
+    -ms-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease;
+    background-color: rgb(72, 71, 71);
+    border: solid 1px !important;
+    border-color: rgba(228, 213, 213, 0.15) !important;
+    border-radius: 1em;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.3em;
+    font-weight: bold;
+    height: calc(3em + 2px);
+    letter-spacing: 0.25em;
+    line-height: 3em;
+    outline: 0;
+    padding: 0 3.75em;
+    position: relative;
+    bottom: 230px;
+    left: 150px;
+     
+}   
+
+.img1 {
+    position: absolute;
+
+   bottom: 170px;
+    right: 410px;
+
+
+}
+
+.t2 {
+
+    border: 1px solid black;
+    width: 1296px;
+    margin: auto;
+
+}
+.pro_img{
+ 
+    position: relative;
+
+
+}
+
+.carousel-control-prev{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background-color: rgb(72, 71, 71);
+  border: solid 1px !important;
+  border-color: rgba(228, 213, 213, 0.15) !important;
+  border-radius: 3em;
+  color: #ffffff !important;
+  cursor: pointer;
+  
+  font-weight: bold;
+  height: calc(3em + 2px);
+  letter-spacing: 0.25em;
+  line-height: 3em;
+  outline: 0;
+  padding: 0 3.75em;
+  width: 10px;
+  position: absolute;
+  top: 550px;
+  left: 800px;
+  
+}
+
+
+.carousel-control-next{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background-color: rgb(72, 71, 71);
+  border: solid 1px !important;
+  border-color: rgba(228, 213, 213, 0.15) !important;
+  border-radius: 3em;
+  color: #ffffff !important;
+  cursor: pointer;
+  
+  font-weight: bold;
+  height: calc(3em + 2px);
+  letter-spacing: 0.25em;
+  line-height: 3em;
+  outline: 0;
+  padding: 0 3.75em;
+  width: 10px;
+  position: absolute;
+  top: 550px;
+  left: 950px;
+}
+
+
