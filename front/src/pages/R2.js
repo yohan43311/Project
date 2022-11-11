@@ -136,35 +136,35 @@ function R1() {
           <br />
           <p class="pre_text1" style={{color: 'orange'}}>로봇 쓰레기통</p>
           <br />
-          <p class="pre_text2">로봇 쓰레기통</p>
+          <p class="pre_text2">신형 로봇 쓰레기통</p>
         </div>
 
         <div>
 
           <img src="pro31.png" className="pre_img1" />
-         <div class = "textbox1"> <p class="pre_text1">로봇 쓰레기통</p>
-          <p class="pre_text2">로봇 쓰레기통</p></div> 
+         <div class = "textbox1"> <p class="pre_text1">센서 인식으로</p>
+          <p class="pre_text2">스스로 닫히는</p></div> 
         </div>
        
         <div>
 
           <img src="pro32.png" className="pre_img2" />
-          <div class = "textbox2"><p class="pre_text1">로봇 쓰레기통</p>
-          <p class="pre_text2">로봇 쓰레기통</p></div> 
+          <div class = "textbox2"><p class="pre_text1">들어오는 물체도 인식하는</p>
+          <p class="pre_text2">스마트 쓰레기통</p></div> 
         </div>
        
         <div>
 
           <img src="pro33.png" className="pre_img3" />
-          <div class = "textbox3"><p class="pre_text1">카카오 로봇청소기</p>
-          <p class="pre_text2">카카오 로봇청소기</p></div> 
+          <div class = "textbox3"><p class="pre_text1">작은 사이즈로</p>
+          <p class="pre_text2">공간 효율성이 높은</p></div> 
         </div>
       
         <div>
 
           <img src="pro34.png" className="pre_img4" />
-          <div class = "textbox4"> <p class="pre_text1">로봇 쓰레기통</p>
-          <p class="pre_text2">로봇 쓰레기통</p></div> 
+          <div class = "textbox4"> <p class="pre_text1">홍보영상</p>
+          <p class="pre_text2">- 이 외의 기기 -</p></div> 
         </div>
        
         <div class='v1'>

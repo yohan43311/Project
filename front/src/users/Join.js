@@ -84,7 +84,7 @@ function Join() {
                     <Form.Group as={Row} className="mb-3">
                         <Col sm>
                             <Form.Control maxLength={20} type="password" placeholder="비밀번호" value={password} onChange={onChangePassword} />
-                            {passwordError && <div class="invalid-input">( 비밀번호는 8자 이상 / 적어도 하나의 숫자 포함 ) </div>}
+                            {passwordError && <div class="invalid-input">( 비밀번호는 8자 이상 / 적어도 하나의 문자 포함 ) </div>}
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3">

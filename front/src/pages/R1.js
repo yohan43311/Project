@@ -137,35 +137,35 @@ function R1() {
           <br />
           <p class="pre_text1" style={{color: 'orange'}}>카카오 로봇청소기</p>
           <br />
-          <p class="pre_text2">카카오 로봇청소기</p>
+          <p class="pre_text2">카카오 신형 로봇청소기</p>
         </div>
 
         <div>
 
           <img src="pro11.jpg" className="pre_img1" />
-          <div class="textbox1"> <p class="pre_text1">카카오 로봇청소기</p>
-            <p class="pre_text2">카카오 로봇청소기</p></div>
+          <div class="textbox1"> <p class="pre_text1">무소음으로 강력하진</p>
+            <p class="pre_text2">보이지 않는 곳까지</p></div>
         </div>
 
         <div>
 
           <img src="pro12.jpg" className="pre_img2" />
-          <div class="textbox2"><p class="pre_text1">카카오 로봇청소기</p>
+          <div class="textbox2"><p class="pre_text1">이질감 없는 디자인</p>
             <p class="pre_text2">카카오 로봇청소기</p></div>
         </div>
 
         <div>
 
           <img src="pro13.jpg" className="pre_img3" />
-          <div class="textbox3"><p class="pre_text1">카카오 로봇청소기</p>
-            <p class="pre_text2">카카오 로봇청소기</p></div>
+          <div class="textbox3"><p class="pre_text1">위험요소를</p>
+            <p class="pre_text2">감지하며</p></div>
         </div>
 
         <div>
 
           <img src="pro14.jpg" className="pre_img4" />
-          <div class="textbox4"> <p class="pre_text1">카카오 로봇청소기</p>
-            <p class="pre_text2">카카오 로봇청소기</p></div>
+          <div class="textbox4"> <p class="pre_text1">홍보영상</p>
+            <p class="pre_text2">- 이 외의 기기 -</p></div>
         </div>
 
         <div class='v1'>

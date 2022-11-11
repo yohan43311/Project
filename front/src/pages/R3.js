@@ -142,29 +142,29 @@ function R1() {
         <div>
 
           <img src="pro21.png" className="pre_img1" />
-         <div class = "textbox1"> <p class="pre_text1">네이버 클로바</p>
-          <p class="pre_text2">네이버 클로바</p></div> 
+         <div class = "textbox1"> <p class="pre_text1">360° 사운드</p>
+          <p class="pre_text2">왜곡 없는 사운드</p></div> 
         </div>
        
         <div>
 
           <img src="pro22.png" className="pre_img2" />
-          <div class = "textbox2"><p class="pre_text1">네이버 클로바</p>
-          <p class="pre_text2">네이버 클로바</p></div> 
+          <div class = "textbox2"><p class="pre_text1">음성인식 기능으로</p>
+          <p class="pre_text2">손쉽게 명령 및 제어</p></div> 
         </div>
        
         <div>
 
           <img src="pro23.png" className="pre_img3" />
-          <div class = "textbox3"><p class="pre_text1">네이버 클로바</p>
-          <p class="pre_text2">네이버 클로바</p></div> 
+          <div class = "textbox3"><p class="pre_text1">경량화된 무게</p>
+          <p class="pre_text2">휴대가 쉬워진</p></div> 
         </div>
       
         <div>
 
           <img src="pro24.png" className="pre_img4" />
-          <div class = "textbox4"> <p class="pre_text1">네이버 클로바</p>
-          <p class="pre_text2">네이버 클로바</p></div> 
+          <div class = "textbox4"> <p class="pre_text1">홍보영상</p>
+          <p class="pre_text2">- 이 외의 기기 -</p></div> 
         </div>
        
         <div class='v1'>

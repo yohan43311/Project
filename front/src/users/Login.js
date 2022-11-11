@@ -10,10 +10,10 @@ export default function Login() {
     const [user, setUser] = useState({
         name: "",
         username: "",
-        email: ""
+        password: ""
     });
 
-    const { name, username, email } = user
+    const { name, username, password } = user
 
     const onInputChange = (e) => {
         setUser({ ...user, [e.target.name]: e.target.value })
@@ -52,8 +52,8 @@ export default function Login() {
                         type={"password"}
                         className="form-control"
                         placeholder="비밀번호를 입력해주세요"
-                        name="name"
-                        value={name}
+                        name="password"
+                        value={password}
                         onChange={(e) => onInputChange(e)}
                     />
                 </div>
