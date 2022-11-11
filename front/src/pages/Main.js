@@ -19,7 +19,7 @@ export default function Main() {
                 {/*  이것은 이미지 슬라이드 입니다 */}
                 <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
-                        <div className="carousel-item active" data-bs-interval="10000">
+                        <div className="carousel-item active" data-bs-interval="2000">
                             <img src="https://media.wired.jp/photos/61cebf50e533d60bb2d608b6/master/w_2560%2Cc_limit/342dc07fca26f593dfe3a4a39d7690be.jpg" className="d-block w-100" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5 className='fontBold'>당신의 친구</h5>
@@ -33,7 +33,7 @@ export default function Main() {
                                 <p>" 심장에 구멍도 뚫려있음! "</p>
                             </div>
                         </div>
-                        <div className="carousel-item">
+                        <div className="carousel-item" data-bs-interval="2000"> 
                             <img src="http://www.irobotnews.com/news/photo/201704/10465_23692_19.png" className="d-block w-100" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5 className='fontBold'>식사 가능</h5>
@@ -41,12 +41,12 @@ export default function Main() {
                             </div>
                         </div>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <button className="carousel-control-prev-3" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span>Pre</span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <button className="carousel-control-next-4" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span>Next</span>
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>

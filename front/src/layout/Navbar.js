@@ -46,8 +46,8 @@ export default function Navbar() {
                                 회원
                             </a>
                             <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                <li><Link className="dropdown-item"  to="/usered" href="#">정보수정</Link></li>
-                                <li><Link className="dropdown-item"  to="/usermu" href="#">문의사항</Link></li>
+                                <li><Link className="dropdown-item"  to="/useredit" href="#">정보수정</Link></li>
+                                <li><Link className="dropdown-item"  to="/userrepport" href="#">문의사항</Link></li>
                             </ul>
                         </li>
                     </ul>

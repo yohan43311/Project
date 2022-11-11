@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 
-export default function USerMu() {
+export default function UserRepport() {
   return (
     <div className='container'>
       <div className='row'>

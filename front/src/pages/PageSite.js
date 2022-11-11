@@ -35,14 +35,11 @@ function PageSite() {
             <li className='pagesite_up_1 mx-5'>
               <a>제품</a>
             </li>
-
           </ul>
-
           <hr />
-
           <ul>
             <li className='pagesite_int_2'>
-            <Link className="dropdown-item"  to="/product" href="#">제품 소개 <br/>및 판매</Link>
+            <Link className="dropdown-item"  to="/Pro" href="#">제품 소개 <br/>및 판매</Link>
             </li>
           </ul>
         </div>
@@ -59,11 +56,11 @@ function PageSite() {
 
           <ul>
             <li className='pagesite_int_3'>
-            <Link className="dropdown-item"  to="/usered" href="#">정보수정</Link>
+            <Link className="dropdown-item"  to="/useredit" href="#">정보수정</Link>
             </li>
 
             <li className='pagesite_int_3'>
-            <Link className="dropdown-item"  to="/usermu" href="#">문의사항</Link>
+            <Link className="dropdown-item"  to="/userrepport" href="#">문의사항</Link>
             </li>
 
           </ul>

@@ -8,17 +8,15 @@
    
    .R1_img {
    
-     position: relative;
-   
-   
+    position: relative;
    }
    
    .img2 {
      position: relative;
      width: 110%;
-     top: 60px;
-     right: 20px;
-   
+     top: 100px;
+     right: 10px;
+     border-radius: 15em;
    
    }
    
@@ -47,10 +45,10 @@
    .area3 {
      width: 298px;
      height: 700px;
-     border: 1px solid black;
+     /* border: 1px solid black; */
      float: left;
      position: relative;
-     top: 150px;
+     top: 130px;
      text-align: center;
      
    }
@@ -68,13 +66,13 @@
    }
    
    .textR1_1 {
-     text-align: left;
+     text-align: center;
      font-weight: 700;
      font-size: 25px;
-   
      color: rgb(10, 10, 10);
    
    }
+   /* R2 aside  */
    
    .textR1 {
    
@@ -84,7 +82,7 @@
      width: 250px;
      height: 150px;
    }
-   
+  
    .textR2 {
    
      position: absolute;
@@ -112,15 +110,19 @@
    }
    
    .buttonbb {
-     position: absolute;
-     left: 15px;
-     width: 230px;
-     height: 50px;
-     background-color: black;
-     color: white;
-     font-weight: 5000;
-     font-size: 22px;
-   
+    position: absolute;
+      left: 15px;
+      width: 230px;
+      height: 50px;
+      color: white;
+      font-weight: 5000;
+      font-size: 22px;
+      border-radius: 3em;
+  
+      background-color: rgb(72, 71, 71);
+      border-color: rgba(228, 213, 213, 0.15) !important;
+      border-radius: 3em;
+      color: #ffffff !important;
    }
    
    .t1 {
@@ -159,6 +161,8 @@
      top: 500px;
      right: 150px;
      margin: 30px;
+     border-radius: 2em;
+     border: solid  rgb(72, 71, 71);
    }
    
    .pre_img2 {
@@ -169,6 +173,8 @@
      top: 1200px;
      right: 150px;
      margin: 30px;
+     border-radius: 2em;
+     border: solid  rgb(72, 71, 71);
    }
    
    .pre_img3 {
@@ -179,6 +185,8 @@
      top: 1900px;
      right: 150px;
      margin: 30px;
+     border-radius: 2em;
+     border: solid  rgb(72, 71, 71);
    }
    
    .pre_img4 {
@@ -189,8 +197,15 @@
      top: 2600px;
      right: 150px;
      margin: 30px;
+     border-radius: 2em;
+     border: solid  rgb(72, 71, 71);
    }
    
+   .video_4{
+    border-radius: 20px;
+    border: solid  rgb(72, 71, 71);
+   }
+
    .textbox1{
    
      position: absolute;
@@ -233,7 +248,7 @@
    }
    
 
-/* ************************** sidebar */
+/* ************************** sidebar_1 */
 
    .area1{
     width:200px;
@@ -277,9 +292,6 @@
 }
 
 .line {
-
-
-
     position: absolute;
     bottom: 360px;
     left: 550px;
@@ -287,12 +299,9 @@
     border: 2;
     height: 4px;
     width: 35%;
-
-
     background-color: rgb(1, 1, 1);
-
-
 }
+/* pro 수평선 */
 
 
 .button1 {
@@ -309,20 +318,28 @@
     border-color: rgba(228, 213, 213, 0.15) !important;
     border-radius: 1em;
     color: #ffffff !important;
+    
     cursor: pointer;
     display: inline-block;
-    font-size: 0.3em;
+    font-size: 0.5em;
     font-weight: bold;
-    height: calc(3em + 2px);
-    letter-spacing: 0.25em;
+    height: calc(4em + 2px);  /*높낮이*/
+    letter-spacing: 0.25em;  /*글 간격*/
     line-height: 3em;
     outline: 0;
-    padding: 0 3.75em;
+    padding: 0 3.75em;      /*좌우 폭*/
     position: relative;
-    bottom: 230px;
-    left: 150px;
+    bottom: 230px;  /*위치*/
+    left: 140px;
      
 }   
+/* pro button */
+.pro_btn{
+  background-color: rgb(72, 71, 71);
+      border-color: rgba(228, 213, 213, 0.15) !important;
+      border-radius: 3em;
+      color: #ffffff !important;
+}
 
 .img1 {
     position: absolute;
@@ -341,10 +358,7 @@
 
 }
 .pro_img{
- 
     position: relative;
-
-
 }
 
 .carousel-control-prev{
@@ -364,17 +378,18 @@
   cursor: pointer;
   
   font-weight: bold;
-  height: calc(3em + 2px);
-  letter-spacing: 0.25em;
-  line-height: 3em;
+  height: calc(3em + 2px); /*높낮이*/
+  letter-spacing: 0.25em; /*글 간격*/
+  line-height: 3em; 
   outline: 0;
-  padding: 0 3.75em;
+  padding: 0 3.75em;  /*좌우 폭*/
   width: 10px;
   position: absolute;
-  top: 550px;
+  top: 580px;
   left: 800px;
-  
 }
+/* pro button */
+
 
 
 .carousel-control-next{
@@ -401,8 +416,179 @@
   padding: 0 3.75em;
   width: 10px;
   position: absolute;
-  top: 550px;
+  top: 580px;
   left: 950px;
 }
 
+.color1{
+  background-color:#d3d6b4;
+  width:50px;
+  height:50px;
+  border-radius:75px;
+  margin:0 auto;
 
+  display: inline-block;
+  position: relative;
+  bottom: 240px;
+  left: 195px;
+}
+.color2{
+  background-color:#aad49e;
+  width:50px;
+  height:50px;
+  border-radius:75px;
+  margin:0 auto;
+
+  display: inline-block;
+  position: relative;
+  bottom: 240px;
+  left: 215px;
+}
+.color3{
+  background-color:#a79ed4;
+  width:50px;
+  height:50px;
+  border-radius:75px;
+  margin:0 auto;
+
+  display: inline-block;
+  position: relative;
+  bottom: 240px;
+  left: 235px;
+}
+.color4{
+  background-color:#696674;
+  width:50px;
+  height:50px;
+  border-radius:75px;
+  margin:0 auto;
+
+  display: inline-block;
+  position: relative;
+  bottom: 240px;
+  left: 255px;
+}
+
+/* pro color1234 */
+
+.carousel-control-prev-1{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background-color: rgb(72, 71, 71);
+  border: solid 1px !important;
+  border-color: rgba(228, 213, 213, 0.15) !important;
+  border-radius: 3em;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-weight: bold;
+
+  height: calc(3em + 2px);
+  letter-spacing: 0.25em; /*글자간격*/
+  line-height: 1em;
+  outline: 0;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+
+  position: absolute;
+  top: 330px;
+  left: 140px;
+}
+
+.carousel-control-next-2{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background-color: rgb(72, 71, 71);
+  border: solid 1px !important;
+  border-color: rgba(228, 213, 213, 0.15) !important;
+  border-radius: 3em;
+  color: #ffffff !important;
+  cursor: pointer;
+  
+  font-weight: bold;
+  height: calc(3em + 2px);
+  letter-spacing: 0.25em;
+  line-height: 1em;
+  outline: 0;
+  padding-left: 1em;
+  padding-right: 4em;
+  /* padding: 0 3.75em;  */
+  width: 10px;
+
+  position: absolute;
+  top: 330px;
+  left: 320px;
+}
+/* R123 slidebar */
+
+.carousel-control-prev-3{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background-color: rgb(72, 71, 71);
+  border: solid 1px !important;
+  border-color: rgba(228, 213, 213, 0.15) !important;
+  border-radius: 3em;
+  color: #ffffff !important;
+  cursor: pointer;
+  font-weight: bold;
+
+  height: calc(3em + 2px);
+  letter-spacing: 0.25em; /*글자간격*/
+  line-height: 1em;
+  outline: 0;
+  padding-left: 1.4em;
+  padding-right: 1.4em;
+
+  position: absolute;
+  top: 500px;
+  left: 40px;
+}
+
+.carousel-control-next-4{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: border-color 0.2s ease;
+  -webkit-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+  background-color: rgb(72, 71, 71);
+  border: solid 1px !important;
+  border-color: rgba(228, 213, 213, 0.15) !important;
+  border-radius: 3em;
+  color: #ffffff  !important;
+  cursor: pointer;
+  
+  font-weight: bold;
+  height: calc(3em + 2px);
+  letter-spacing: 0.25em;
+  line-height: 1em;
+  outline: 0;
+  padding-left: 1em;
+  padding-right: 4em;
+  /*padding: 0 3.75em;*/
+  width: 10px;
+  
+  position: absolute;
+  top: 500px;
+  left: 1160px;
+}
+/* main button */

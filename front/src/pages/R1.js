@@ -21,11 +21,11 @@ function R1() {
 
 
       <Sidebar_1 />
-     
+
       <div class="area2">
 
         <div class='area2_title'>
-          <p className='title'>카카오 로봇청소기(URJU2F323L3) 상세참조</p>
+          <pre className='title'> 카카오 로봇청소기(URJU2F323L3) 상세참조</pre>
 
 
         </div>
@@ -34,42 +34,38 @@ function R1() {
 
           {/*  이것은 이미지 슬라이드 입니다 */}
           <div id="r1" className="carousel carousel-dark slide" data-bs-ride="carousel">
+            
             <div className="carousel-inner">
-
-              <div className="carousel-item active" data-bs-interval="10000">
-
-                <img src="6.png" className="d-block w-100" />
-
+              <div className="carousel-item active" data-bs-interval="2000">
+                <img src="7.png" className="d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
-                  <img src="pro1.png" className='img2' />
-
+                  <img src="pro1.png" className='img2' /> 
                 </div>
               </div>
+
+
               <div className="carousel-item" data-bs-interval="2000">
-                <img src="6.png" className="d-block w-100" />
-
-
+                <img src="7.png" className="d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <img src="pro13.jpg" className='img2' />
-
                 </div>
               </div>
-              <div className="carousel-item">
-                <img src="6.png" className="d-block w-100" />
 
+              <div className="carousel-item" data-bs-interval="2000">
+                <img src="7.png" className="d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <img src="pro14.jpg" className='img2' />
-
                 </div>
               </div>
+
             </div>
 
-            <button className="carousel-control-prev" type="button" data-bs-target="#r1" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button className="carousel-control-prev-1" type="button" data-bs-target="#r1" data-bs-slide="prev">
+              <span>Pre</span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#r1" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <button className="carousel-control-next-2" type="button" data-bs-target="#r1" data-bs-slide="next">
+              <span>Next</span>
               <span className="visually-hidden">Next</span>
             </button>
           </div>
@@ -87,8 +83,8 @@ function R1() {
         </div>
         <div class='textR2'>
           <p className='textR1_1'>Delivery Info</p>
-          <p className='text'>출고 정보/&nbsp; &nbsp;    결제3일 이내 출고</p>
-          <p className='text'>배송 방법/&nbsp; &nbsp;  국내 배송/해외 배송</p>
+          <p className='text'>출고 정보&nbsp; &nbsp; 결제3일 이내 출고</p>
+          <p className='text'>배송 방법&nbsp; &nbsp; 국내 해외 배송</p>
           <hr className='line_r1'></hr>
         </div>
         <div class='textR3'>
@@ -99,7 +95,7 @@ function R1() {
         </div>
         <div className='b1'>
           <Link to="/adduser">
-            <button className='buttonbb' type='button'>바로구매</button>
+            <button className='buttonbb' type='button'>Buy Now</button>
           </Link>
         </div>
 
@@ -139,7 +135,7 @@ function R1() {
           </table>
           <br />
           <br />
-          <p class="pre_text1">카카오 로봇청소기</p>
+          <p class="pre_text1" style={{color: 'orange'}}>카카오 로봇청소기</p>
           <br />
           <p class="pre_text2">카카오 로봇청소기</p>
         </div>
@@ -147,33 +143,33 @@ function R1() {
         <div>
 
           <img src="pro11.jpg" className="pre_img1" />
-         <div class = "textbox1"> <p class="pre_text1">카카오 로봇청소기</p>
-          <p class="pre_text2">카카오 로봇청소기</p></div> 
+          <div class="textbox1"> <p class="pre_text1">카카오 로봇청소기</p>
+            <p class="pre_text2">카카오 로봇청소기</p></div>
         </div>
-       
+
         <div>
 
           <img src="pro12.jpg" className="pre_img2" />
-          <div class = "textbox2"><p class="pre_text1">카카오 로봇청소기</p>
-          <p class="pre_text2">카카오 로봇청소기</p></div> 
+          <div class="textbox2"><p class="pre_text1">카카오 로봇청소기</p>
+            <p class="pre_text2">카카오 로봇청소기</p></div>
         </div>
-       
+
         <div>
 
           <img src="pro13.jpg" className="pre_img3" />
-          <div class = "textbox3"><p class="pre_text1">카카오 로봇청소기</p>
-          <p class="pre_text2">카카오 로봇청소기</p></div> 
+          <div class="textbox3"><p class="pre_text1">카카오 로봇청소기</p>
+            <p class="pre_text2">카카오 로봇청소기</p></div>
         </div>
-      
+
         <div>
 
           <img src="pro14.jpg" className="pre_img4" />
-          <div class = "textbox4"> <p class="pre_text1">카카오 로봇청소기</p>
-          <p class="pre_text2">카카오 로봇청소기</p></div> 
+          <div class="textbox4"> <p class="pre_text1">카카오 로봇청소기</p>
+            <p class="pre_text2">카카오 로봇청소기</p></div>
         </div>
-       
+
         <div class='v1'>
-          <video className='video' controls width="700">
+          <video className='video_4' controls width="700">
             <source src={Vivi_3}></source>
           </video>
         </div>
@@ -181,8 +177,8 @@ function R1() {
 
       </div>
 
-  
-</div>
+
+    </div>
   )
 
 }

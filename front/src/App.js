@@ -10,8 +10,8 @@ import ViewUser from './users/ViewUser';
 import PageInt from './pages/PageInt';
 import Pro from './pages/Pro';
 import PageSite from './pages/PageSite';
-import UserEd from './pages/UserEd'
-import UserMu from './pages/UserMu'
+import UserEdit from './pages/UserEdit'
+import UserRepport from './pages/UserRepport'
 import Main from './pages/Main'
 import Login from './users/Login';
 import Join from './users/Join';
@@ -33,8 +33,8 @@ function App() {
           <Route exact path="/pageint" element={<PageInt/>}/>
           <Route exact path="/pro" element={<Pro/>}/>
           <Route exact path="/pagesite" element={<PageSite/>}/>
-          <Route exact path="/usered" element={<UserEd/>}/>
-          <Route exact path="/usermu" element={<UserMu/>}/>
+          <Route exact path="/useredit" element={<UserEdit/>}/>
+          <Route exact path="userrepport" element={<UserRepport/>}/>
           <Route exact path="/login" element={<Login/>}/>
 
           <Route exact path="/join" element={<Join/>}/>
@@ -42,7 +42,6 @@ function App() {
           <Route exact path="/R1" element={<R1/>}/>
           <Route exact path="/R2" element={<R2/>}/>
           <Route exact path="/R3" element={<R3/>}/>
-
 
         </Routes> 
       </Router>

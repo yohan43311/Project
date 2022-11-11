@@ -29,7 +29,7 @@ function PageInt() {
             <h1>TANG TANG</h1>
             <p className='page_2'>쓰레기로봇 전문기업 TANG TANG Intro</p>
 
-            <video className='video_3' controls width="700">
+            <video className='video_3' controls width="700" style={{float: 'center'}}>
               <source src={Vivi_3}></source>
             </video>
           </div>
@@ -72,7 +72,7 @@ function PageInt() {
           <video className='video_1' controls width="500" height={300} style={{ float: 'left' }}>
             <source src={Vivi}></source>
           </video>
-
+          
           <video className='video_2' controls width="500" height={300} style={{ float: 'right' }}>
             <source src={Vivi_2}></source>
           </video>

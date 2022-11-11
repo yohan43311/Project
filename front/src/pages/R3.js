@@ -34,42 +34,37 @@ function R1() {
 
           {/*  이것은 이미지 슬라이드 입니다 */}
           <div id="r1" className="carousel carousel-dark slide" data-bs-ride="carousel">
+           
             <div className="carousel-inner">
-
-              <div className="carousel-item active" data-bs-interval="10000">
-
-                <img src="6.png" className="d-block w-100" />
-
+              <div className="carousel-item active" data-bs-interval="2000">
+                <img src="7.png" className="d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <img src="pro3.png" className='img2' />
-
                 </div>
               </div>
+
               <div className="carousel-item" data-bs-interval="2000">
-                <img src="6.png" className="d-block w-100" />
-
-
+                <img src="7.png" className="d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <img src="pro22.png" className='img2' />
-
                 </div>
               </div>
-              <div className="carousel-item">
-                <img src="6.png" className="d-block w-100" />
 
+              <div className="carousel-item" data-bs-interval="2000">
+                <img src="7.png" className="d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <img src="pro24.png" className='img2' />
-
                 </div>
               </div>
+
             </div>
 
-            <button className="carousel-control-prev" type="button" data-bs-target="#r1" data-bs-slide="prev">
-              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button className="carousel-control-prev-1" type="button" data-bs-target="#r1" data-bs-slide="prev">
+              <span>Pre</span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#r1" data-bs-slide="next">
-              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <button className="carousel-control-next-2" type="button" data-bs-target="#r1" data-bs-slide="next">
+              <span>Next</span>
               <span className="visually-hidden">Next</span>
             </button>
           </div>
@@ -139,7 +134,7 @@ function R1() {
           </table>
           <br />
           <br />
-          <p class="pre_text1">네이버 클로바</p>
+          <p class="pre_text1" style={{color: 'orange'}}>네이버 클로바</p>
           <br />
           <p class="pre_text2">네이버 클로바</p>
         </div>
@@ -173,7 +168,7 @@ function R1() {
         </div>
        
         <div class='v1'>
-          <video className='video' controls width="700">
+          <video className='video_4' controls width="700">
             <source src={Vivi_3}></source>
           </video>
         </div>
