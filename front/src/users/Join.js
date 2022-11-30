@@ -22,10 +22,15 @@ function Join() {
 
     const onChangeUserId = (e) => {
         const userIdRegex = /^[A-Za-z0-9+]{5,}$/;
-        if ((!e.target.value || (userIdRegex.test(e.target.value)))) setUserIdError(false);
+        if ((!e.target.value || (userIdRegex.test(e.target.value)))) setUserIdError(false); 
+        // else if(setUserId ==""){
+        //     alert(setUserId+ "입력해주세요.");
+        //     return true;
+        // }
         else setUserIdError(true);
         setUserId(e.target.value);
     };
+// ID
     const onChangePassword = (e) => {
         const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
         if ((!e.target.value || (passwordRegex.test(e.target.value)))) setPasswordError(false);
@@ -35,22 +40,25 @@ function Join() {
         else setConfirmPasswordError(true);
         setPassword(e.target.value);
     };
+// PWD
     const onChangeConfirmPassword = (e) => {
         if (password === e.target.value) setConfirmPasswordError(false);
         else setConfirmPasswordError(true);
         setConfirmPassword(e.target.value);
     };
+// PWD Confirm
     const onChangeUserName = (e) => {
         setUserNameError(false);
         setUserName(e.target.value)
     };
+// USER Name
     const onChangeEmail = (e) => {
         const emailRegex = /^(([^<>()\[\].,;:\s@"]+(\.[^<>()\[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
         if (!e.target.value || emailRegex.test(e.target.value)) setEmailError(false);
         else setEmailError(true);
         setEmail(e.target.value);
     };
-
+// Email
     const validation = () => {
         if (!userId) setUserIdError(true);
         if (!password) setPasswordError(true);
@@ -61,7 +69,7 @@ function Join() {
         if (userId && password && confirmPassword && userName && email) return true;
         else return false;
     }
-
+// 유효성 검사
     const onSubmit = (e) => {
         if (validation()) return;
 
@@ -79,6 +87,7 @@ function Join() {
                         <Col sm>
                             <Form.Control maxLength={20} placeholder="아이디" value={userId} onChange={onChangeUserId} />
                             {userIdError && <div class="invalid-input">( 사용자 ID는 최소 5글자 / 문자나 숫자를 포함 )</div>}
+                            
                         </Col>
                     </Form.Group>
                     <Form.Group as={Row} className="mb-3">
@@ -107,11 +116,16 @@ function Join() {
                     </Form.Group>
                     <br />
                     <div className="d-grid gap-1">
-                        <Button variant="secondary" onClick={onSubmit}>
+                        <Button variant="secondary" onClick={() => alert('이메일 주소에 @를 입력해주세요')}>
                             등록하기
                         </Button>
-                        
                     </div>
+                    {/* <div className="d-grid gap-1">
+                        <Button variant="secondary" onClick={onSubmit}>  기본형
+                            등록하기
+                        </Button>
+                       
+                    </div> */}
                 </Form>
                 <br />
                 <span className="text">계정이 있으신가요?

@@ -18,6 +18,8 @@ import Join from './users/Join';
 import R1 from './pages/R1';
 import R2 from './pages/R2';
 import R3 from './pages/R3';
+import Yo from './pages/Yo';
+
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
           <Route exact path="/R1" element={<R1/>}/>
           <Route exact path="/R2" element={<R2/>}/>
           <Route exact path="/R3" element={<R3/>}/>
+
+          <Route exact path="/Yo" element={<Yo/>}/>
 
         </Routes> 
       </Router>

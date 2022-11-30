@@ -62,9 +62,30 @@ function PageSite() {
             <li className='pagesite_int_3'>
             <Link className="dropdown-item"  to="/userrepport" href="#">문의사항</Link>
             </li>
+            <li className='pagesite_int_3'>
+            <Link className="dropdown-item"  to="/Yo" href="#">개발자 소개</Link>
+            </li>
 
           </ul>
         </div>
+        <div className='col'>
+          <ul className='pagesite_dot'>
+            <li className='pagesite_up_1 mx-5'>
+              <a>인원</a>
+            </li>
+
+          </ul>
+
+          <hr />
+
+          <ul>
+            <li className='pagesite_int_3'>
+            <Link className="dropdown-item"  to="/Yo" href="#">개발자 소개</Link>
+            </li>
+
+          </ul>
+        </div>
+        
       </div>
     </div>
 

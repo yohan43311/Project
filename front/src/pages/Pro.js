@@ -9,7 +9,9 @@ function Pro() {
     textDecoration: 'none',
     color: '#263238'
   }
-
+  function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }
 
   return (
 
@@ -102,6 +104,7 @@ function Pro() {
               <p class="card-text">카카오에서 야심작으로 <br />나온 귀요미 로봇청소기</p>
             </div>
             <br />
+           
             <div class="card-body">
                369000원
               <Link to="/R1" className="card-link mx-3" style={cardStyle}>

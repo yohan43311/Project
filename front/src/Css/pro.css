@@ -528,7 +528,7 @@
 
   position: absolute;
   top: 330px;
-  left: 320px;
+  left: 350px;
 }
 /* R123 slidebar */
 
@@ -602,3 +602,9 @@
   padding: 10px 10px;
   white-space: pre-wrap;
 }
+
+
+.container_pagesite_1{
+  left: 450px;
+}
+/* pagesite 위치 정렬 */
