@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
     <Nav>
     <NavLogo to="/">
-        <NavIcon src="./assets/HwangBit.png" alt="logo"/>
+        <NavIcon src="./assets/HwangBit_2.png" alt="logo"/>
         </NavLogo>
       <Link to="/mypage">
         <button>마이페이지</button>

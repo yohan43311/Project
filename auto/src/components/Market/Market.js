@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
-import { ButtonWrapper, HeroButton } from './MarketStyles';
+import { ButtonWrapper, HeroButton, MarketButton } from './MarketStyles';
 
 
 
@@ -9,8 +9,8 @@ export default function Market() {
     return (
         <Container>
             <ButtonWrapper>
-                <Link to="#">
-                    <HeroButton>GoooPax</HeroButton>
+            <Link to="#">
+                    <MarketButton>BiThumb</MarketButton>
                 </Link>
                 <Link to="#">
                     <HeroButton>Finance</HeroButton>
@@ -22,7 +22,7 @@ export default function Market() {
                     <HeroButton>CoinOne</HeroButton>
                 </Link>
                 <Link to="#">
-                <HeroButton>BiThumb</HeroButton>
+                    <HeroButton>GoooPax</HeroButton>
                 </Link>
                 <Link to="#">
                     <HeroButton>UpppBit</HeroButton>

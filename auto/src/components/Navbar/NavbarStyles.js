@@ -13,11 +13,13 @@ export const Nav = styled.nav`
 	z-index: 50;
 	width: 100%;
 	transition: background-color 0.3s ease-in;
+	flex-flow: wrap;
+	
 `; // Navbar.js의 1번 밖 ( 최상단 )
 
 
 export const NavIcon = styled.img`
-	margin-right: 80rem;
+	margin-right: 52rem;
 	width: 10rem;
     cursor: pointer;
 `;// 로고 사이즈
@@ -31,7 +33,7 @@ export const NavLogo = styled(Link)`
 	display: flex;
 	align-items: center;
 	z-index: 50;
-	
+	flex-flow: wrap;
 `;// Navbar.js의 3번 밖 ( 로고 )
 
 

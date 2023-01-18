@@ -1,10 +1,6 @@
 import React from 'react'
-import styled from 'styled-components';
 import Market from '../components/Market/Market';
-
-export const HomeHead = styled.div`
-
-`
+import Like from '../components/Like/Like';
 
 export default function Home() {
   return (
@@ -15,6 +11,8 @@ export default function Home() {
       <br/>
       <br/>
       <Market/>
+      <br/>
+      <Like/>
     </div>
   )
 }
