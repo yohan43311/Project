@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .pageint_text{
+  text-align:left;
+}
+
+.pageint_bar{
+  border: 0;
+  width: 70%;
+  height: 10px;
+} */
+/* width: 수평선의 크기(가로 길이)
+비율(%) | 숫자값(px)
+height : 수평선의 굵기
+text-align: 선의 위치
+left | center | right
+(default: center)
+background-color 또는 background: 수평선의 색깔 */
+
+.video_3{
+  
+    border-radius: 20px;
+    border: solid  rgb(72, 71, 71);
+} 
+/* 동영상 테두리 (PageInt) */
+
+.pageint_lee,.txt_name_2,.pageint_nuam,.yeanhyeok_1{
+  text-align: left;
+} 
+/* 페이지 소개 text (PageInt) */
+/* 페이지 소개 작은 글  (PageInt) */
+
+.txt_name,.leenum,.yeanhyeok{
+  color: orange;
+}
+ /* 페이지 소개 글 색상  (PageInt) */
+
+.pageint_vidio
+{
+  float:left
+}
+ 
+.video_1,.video_2{
+  border-radius: 20px;
+  border: solid  rgb(72, 71, 71);
+  margin: 10px;
+}
+
+.Timage{
+  width: 100px;
+   height: 100px;
+   object-fit: cover;
+}
+/* 비디오 이미지 사이즈 조절 */
+
+.container_pagesite_1{
+  position: absolute;
+  top: 50%;
+  left: 36%;
+} 
+/* pagesite 중앙 정렬 (고정) */
+
+.pagesite_dot,.area1{
+  list-style: none;
+  padding-left:0px;
+}
+/* li 밑줄 / 점 없애기 */
+
+.pagesite_int_1,.pagesite_int_2,.pagesite_int_3{
+  text-align: left;
+}
+/* pagesite 왼쪽 정렬 */
+
+.adduser_1{
+  float: right;
+}
+.login_1,.join_1{
+  text-align: right;
+  vertical-align: bottom;
+}
+/* loing + join 링크 오른쪽 밑 */
+
+
+/* .pageint_container_1,.pageint_container_2,.pageint_vidio,.Sidebar_1
+,.pageint_video_1,.yeanhyeok_1,.pageint_nuam,.pagesite_1,.pagesite_2
+,.container_pagesite_1{
+  border: 1px solid red;
+} */
+/* .row{
+  border: 3px solid blue;
+} */
+
+
+
+

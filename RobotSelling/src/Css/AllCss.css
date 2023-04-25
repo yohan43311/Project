@@ -1,0 +1,30 @@
+.nvBar{
+    padding-right: 13%;
+    margin-left:  5%;
+}
+
+.navLogin{
+    text-align-last: right;
+}
+
+.mainSlid{
+    height: 570px;
+    width: 3000px;
+}
+
+.mainRowBar{
+    margin-top: 25%;
+}
+
+.login_right{
+    width: 100%;
+    padding-left: 0%;
+    margin-right: 2%;
+    text-align: end;
+}
+
+.size_mian{
+    width: 30%;
+    margin-top: 10%;
+    
+}
