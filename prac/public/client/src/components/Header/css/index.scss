@@ -1,0 +1,35 @@
+#root{
+    .header{
+        width: 100%; // 헤더의 속성을 잃기 때문에 설정
+        position: fixed; // 항상 고정되야 하니 고정
+        top: 0;
+        background-color: white;
+        .wrapper{
+            margin: 0 auto;
+            width: 1000px;
+            height: 54px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo{
+                width: 124px;
+                display: flex; // 중정
+                align-items: center; // 중정
+
+            }
+            .navigation{
+                .nav-wrapper{
+                    display: grid;
+                    grid-template-columns: repeat(2,30px); // (a,b) a=행/b=사이즈
+                    column-gap: 18px; // 오른쪽 이미지 간격
+
+                    .nav{
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+$class-101-gray: #e8e8e8;
+$class-101-gray100: #9d9d9f;
+$class-101-gray200: #454545;
+$class-101-black: #262626;
+$class-101-white-200: #fafafa;
+
+#root {
+  .profile {
+    padding-top: 53px; // 상단과 거리
+    background-color: $class-101-white-200;
+    min-height: 100vh; // 밑으로 쭉 배경 깔림
+
+    .wrapper {
+      padding-top: 36px; // profile의 pagging-top과 합쳐짐
+      width: 1000px;
+      margin: 0 auto; // 중앙정렬
+
+      .info {
+        display: flex;
+        align-items: center;
+
+        .profile-image {
+          width: 120px;
+          height: 120px;
+          border-radius: 120px;
+          background-color: $class-101-gray;
+          margin-right: 18px;
+          flex-shrink: 0; // 찌그러 지지 않게
+        }
+
+        .profile-desc {
+          flex: 1;
+
+          .nickname {
+            font-size: 16px;
+            color: black;
+          }
+
+          .qoute {
+            font-size: 12px;
+            line-height: 1.6;
+            margin-top: 12px;
+            color: $class-101-gray200;
+
+            textarea {
+              border: none;
+              resize: none;
+              width: 100%;
+              height: 73px;
+              background-color: $class-101-white-200; // 배경 색 맞춤
+            }
+          }
+          .follow-btn {
+            width: 100px;
+            height: 30px;
+            border-radius: 30px;
+            border: 1px solid $class-101-gray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $class-101-black;
+            font-size: 12px;
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+  }
+}

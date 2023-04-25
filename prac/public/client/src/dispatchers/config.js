@@ -1,0 +1,1 @@
+export const __NICKNAME_SERVICE_UPDATE__ = '@/ocnfig/UPDATE_NICKNAMES'

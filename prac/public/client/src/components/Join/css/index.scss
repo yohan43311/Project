@@ -1,0 +1,71 @@
+$class-101-black: #262626;
+$class-101-gray: #e8e8e8;
+
+
+#root {
+    .join{
+        height: 100vh;;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // 전체 틀 위치
+        .wrapper{
+            width: 272px;
+            .logo{
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+            .join-contents{
+                margin-top: 36px;
+                // 로고 입력칸 사이 띄움
+                .custom-inp{
+                    .top{ 
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-between;
+                        // 양쪽에 배치가 되어있기에 flex-end
+                        // space-between 양쪽으로 멀리 떨굼
+                        &>.title{
+                            font-size: 12px;
+                            color: $class-101-black;
+
+                        } // 자주쓰이는 연산자 이기에 &씀(직접연산자)
+                        .warning{
+                            font-size: 10px;
+                            color: $class-101-black;
+                        }
+                    }
+                    .inp{
+                        margin: 4px;
+                        input{
+                            width: 272px;
+                            height: 34px;
+                            border: 1px solid $class-101-gray;
+                            border-radius: 5px;
+                            padding-left: 8px; // 입력칸 문구 좌->우
+                            &::placeholder{
+                                color: $class-101-gray;
+                            } // &(앤드표시) 자기 자신을 뜻함
+                        }
+                    }
+                }
+                .password-inp,.nickname-inp{
+                    margin-top: 28px; // 칸끼리 위 아래 띄어씀
+                }
+                .join-btn{
+                    border: none;
+                    width: 100%;
+                    height: 34px;
+                    background-color: $class-101-black;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 48px;
+                }
+            }
+        }
+    }
+}
